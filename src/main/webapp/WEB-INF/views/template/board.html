@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head th:fragment="head">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>breadboard</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <meta name="keywords" content="KEYWORD" />
+    <meta name="description" content="DESCRIPTION" />
+    <!-- Bootstrap -->
+    <link th:href="@{resources/bootstrap-3.3.7-dist/css/bootstrap.min.css}" rel="stylesheet" />
+    <!-- Font Awesome Icon -->
+    <link th:href="@{resources/font-awesome-4.7.0/css/font-awesome.min.css}" rel="stylesheet" />
+    <!--Import Google Icon Font -->
+    <link th:href="@{resources/css/icon.css}" rel="stylesheet" />
+
+    <link th:href="@{resources/css/bootstrap-social.css}" rel="stylesheet" />
+    
+    <!-- moment -->
+    <script th:src="@{resources/js/moment.min.js}"></script>
+    <!-- tinyMCE -->
+    <script th:src="@{resources/js/tinymce/tinymce.min.js}"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script th:fragment="jquery" th:src="@{resources/js/jquery-3.1.1.min.js}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script th:fragment="bootstrap" th:src="@{resources/bootstrap-3.3.7-dist/js/bootstrap.min.js}"></script>
+
+    <style type="text/css">
+        /*
+        @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+        body {
+            font-family: 'Noto Sans KR', "roboto", "Helvetica Neue", Helvetica, Arial, "맑은 고딕", malgun gothic, "돋움", Dotum, sans-serif;
+        }
+            */
+    </style>
+</head>
+<body>
+
+    <!-- copyright -->
+    <div th:fragment="copyright" style="padding:5px 10px 0px 10px;font-size:10px;text-align:right;font-family:malgun gothic;">
+        Copyright 2017 All rights reserved <strong><a href="http://nzo.io" target="_blank" style="display:inline-block;">breadboard</a></strong>
+    </div>
+
+</body>
+</html>
